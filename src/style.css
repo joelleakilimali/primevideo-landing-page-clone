@@ -1,0 +1,134 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow: -moz-hidden-unscrollable;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar {
+  display: flex;
+  background-color: #0f171e;
+  padding: 1.2rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left img {
+  width: 120px;
+}
+.nav-right {
+  display: flex;
+  color: #bdbaba;
+}
+.nav-right .lang {
+  margin: 0 1rem;
+}
+.nav-right .lang > a {
+  font-size: 1rem;
+  color: #bdbaba;
+  text-decoration: none;
+}
+.nav-right .signin {
+  margin: 0 1rem;
+}
+.nav-right .signin > a {
+  color: #bdbaba;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.overlay {
+  background: url("../public/assets/bg.jpg");
+  background-size: cover;
+  color: white;
+  position: relative;
+  z-index: 1;
+  top: 0;
+  height: 534px;
+}
+.overlay-content {
+  position: absolute;
+  background: linear-gradient(0.25turn, #000000, #000000, transparent);
+  height: 534px;
+  width: 76%;
+  padding: 3.5rem 0.8rem 3.5rem 4.6rem;
+}
+.overlay-content h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.overlay-content p {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+  width: 58%;
+}
+.overlay-content .button-container {
+  padding: 1.2rem;
+  background-color: #0f79af;
+  width: 280px;
+  margin: 1.2rem 0;
+  border-radius: 3px;
+}
+.overlay-content .button-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.overlay-content .line {
+  width: 280px;
+}
+.overlay-content .price > p {
+  margin-top: 2.8rem;
+  font-size: 14px;
+  font-weight: 100;
+  color: #f2f3f4;
+}
+.container-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 6rem;
+  background-color: #ffffff;
+}
+.wrap-child {
+  align-content: center;
+  text-align: center;
+  width: 30%;
+}
+.wrap-child-content {
+  margin-top: 1rem;
+}
+.wrap-child-content h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.wrap-child-content p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-top: 0.8rem;
+}
+footer {
+  background-color: #0f171e;
+  padding: 1.5rem 0 4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-content {
+  color: #ffffff;
+}
+.footer-content p {
+  font-size: 15px;
+  font-weight: 100;
+  color: gray;
+}
+.footer-content p > a {
+  color: #54548e;
+  font-size: 14px;
+  text-decoration: none;
+}
