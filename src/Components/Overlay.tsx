@@ -4,7 +4,7 @@ const Overlay: React.FC = () => {
   return (
     <div className="overlay">
       <div className="overlay-content">
-        <h1>Welcome to Prime Video</h1>
+        <h1>Welcome back to Prime Video</h1>
         <p>
           Enjoy exclusive Amazon Originals as well as popular movies and TV
           shows. Join Prime Video now for USD 5.99 per month. Cancel anytime.
