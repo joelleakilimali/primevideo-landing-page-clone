@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <img src="./assets/footer_logo.png" alt="" />
       <div className="footer-content">
         <p>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="/" target="_blank" rel="noopener noreferrer">
             Terms and Privacy NoticeSend us feedback Help
           </a>{" "}
           © 1996-2022, Amazon.com, Inc. or its affiliates

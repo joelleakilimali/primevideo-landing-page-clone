@@ -9,12 +9,12 @@ const Navbar: React.FC = () => {
         </div>
         <div className="nav-right">
           <div className="lang">
-            <a href="#" rel="">
+            <a href="/" rel="">
               EN
             </a>
           </div>
           <div className="signin">
-            <a href="#" rel="">
+            <a href="/" rel="">
               Sign In
             </a>
           </div>
