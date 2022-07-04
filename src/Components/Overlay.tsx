@@ -10,11 +10,11 @@ const Overlay: React.FC = () => {
           shows. Join Prime Video now for USD 5.99 per month. Cancel anytime.
         </p>
         <div className="button-container">
-          <a href="#">Prime Video Member? Sign in</a>
+          <a href="/">Prime Video Member? Sign in</a>
         </div>
         <hr className="line" />
         <div className="button-container">
-          <a href="#">Start your free trial*</a>
+          <a href="/">Start your free trial*</a>
         </div>
         <div className="price">
           <p>Membership renews at USD 5.99/month.</p>
